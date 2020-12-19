@@ -19,7 +19,7 @@ class _CustomersListState extends State<CustomersList> {
     var query = ModalRoute.of(context).settings.arguments as List<Customer>;
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(backgroundColor: Colors.teal, title: Text('View All Customers'),),
+      appBar: AppBar(backgroundColor: Colors.indigoAccent, title: Text('View All Customers'),),
       body:SafeArea(
         child: SingleChildScrollView(
           child: Container(

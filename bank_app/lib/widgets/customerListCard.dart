@@ -22,7 +22,7 @@ class _CustomerListCardState extends State<CustomerListCard> {
       alignment: Alignment.center,
       height: 80,
       child: Card(
-        color: Colors.teal,
+        color: Colors.indigoAccent,
         child: ListTile(contentPadding: EdgeInsets.all(10),
           leading: Icon(
             widget.icon,
@@ -33,7 +33,6 @@ class _CustomerListCardState extends State<CustomerListCard> {
           widget.title,
           style: TextStyle(
             fontSize: 22,
-            fontWeight: FontWeight.bold,
             color: Colors.white,
           ),
         ),

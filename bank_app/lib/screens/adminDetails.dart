@@ -15,7 +15,7 @@ class _AdminDetailsScreenState extends State<AdminDetailsScreen> {
     var query = ModalRoute.of(context).settings.arguments  as Customer;
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(backgroundColor: Colors.teal, title: Text(query.name),),
+      appBar: AppBar(backgroundColor: Colors.indigoAccent, title: Text(query.name),),
       body: Padding(
         padding: EdgeInsets.all(10),
         child: Column(
@@ -27,8 +27,7 @@ class _AdminDetailsScreenState extends State<AdminDetailsScreen> {
                query.name,
                style: TextStyle(
                  fontSize: 40,
-                 fontWeight: FontWeight.bold,
-                 color: Colors.red[600],),
+                 color: Colors.teal,),
                 ),
                 const Divider(
                   color: Colors.black,

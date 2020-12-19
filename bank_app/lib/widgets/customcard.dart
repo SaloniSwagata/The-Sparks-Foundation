@@ -13,8 +13,8 @@ class CustomCard extends StatelessWidget
     return Container(
       alignment: Alignment.center,
       child: Card(
-        color: Colors.teal,
-        child: ListTile(contentPadding: EdgeInsets.all(10),
+        color: Colors.indigoAccent,
+        child: ListTile(contentPadding: EdgeInsets.all(10), shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(40),),
           leading: Icon(
             icon,
             color: Colors.white,
@@ -24,7 +24,6 @@ class CustomCard extends StatelessWidget
           title,
           style: TextStyle(
             fontSize: 24,
-            fontWeight: FontWeight.bold,
             color: Colors.white,
           ),
         ),

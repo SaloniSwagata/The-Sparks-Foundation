@@ -66,7 +66,7 @@ class _NewTransactionState extends State<NewTransaction> {
 
               RaisedButton(
                 onPressed: submit,
-                color: Colors.teal,
+                color: Colors.indigoAccent,
                 child: Text("Make Transfer", style: TextStyle(fontWeight: FontWeight.bold,),),
                 textColor: Colors.white,)
                 ],

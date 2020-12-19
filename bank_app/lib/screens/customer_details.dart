@@ -16,21 +16,20 @@ class _CustomerDetailsScreenState extends State<CustomerDetailsScreen> {
     var query = ModalRoute.of(context).settings.arguments  as List;
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(backgroundColor: Colors.teal, title: Text(query[1]),),
+      appBar: AppBar(backgroundColor: Colors.indigoAccent, title: Text(query[1]),),
       body: Padding(
         padding: EdgeInsets.all(10),
         child: Column(
           children: <Widget>[
            CircleAvatar(
-             radius : 50,
+             radius : 30,
              backgroundImage: AssetImage("assets/images/customer.jpg", ),
              ),
              Text(
                query[1],
                style: TextStyle(
-                 fontSize: 40,
-                 fontWeight: FontWeight.bold,
-                 color: Colors.red[600],),
+                 fontSize: 30,
+                 color: Colors.black12,),
                 ),
                 const Divider(
                   color: Colors.black,

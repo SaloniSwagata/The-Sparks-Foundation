@@ -36,7 +36,7 @@ DBHelper db;
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: AppBar(backgroundColor: Colors.teal, title: Text('View All Customers'),),
+      appBar: AppBar(backgroundColor: Colors.indigoAccent, title: Text('Add a new customer'),),
       body:SafeArea(
         child: Container(
           child: Column(
@@ -94,7 +94,7 @@ DBHelper db;
                       _employeeNameController.text = '';
                       _employeeBalanceController.text = 0.0.toString();
                 },
-                  color: Colors.teal,
+                  color: Colors.indigoAccent,
                   child: Text('ADD',style: TextStyle(color: Colors.white)),
                   ),
 
