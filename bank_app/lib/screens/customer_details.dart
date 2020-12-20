@@ -29,12 +29,12 @@ class _CustomerDetailsScreenState extends State<CustomerDetailsScreen> {
                query[1],
                style: TextStyle(
                  fontSize: 30,
-                 color: Colors.black12,),
+                 color: Colors.black,),
                 ),
                 const Divider(
                   color: Colors.black,
                   height: 20,
-                  thickness: 5,
+                  thickness: 3,
                   endIndent: 0,
                 ),
                 CustomCard(icon: Icons.account_box_outlined, title: 'Account No: ${query[0]}',),

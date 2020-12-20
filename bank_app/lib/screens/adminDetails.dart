@@ -26,13 +26,13 @@ class _AdminDetailsScreenState extends State<AdminDetailsScreen> {
              Text(
                query.name,
                style: TextStyle(
-                 fontSize: 40,
-                 color: Colors.teal,),
+                 fontSize: 25,
+                 color: Colors.blueAccent,),
                 ),
                 const Divider(
                   color: Colors.black,
                   height: 20,
-                  thickness: 5,
+                  thickness: 3,
                   endIndent: 0,
                 ),
                 CustomCard(icon: Icons.account_box_outlined, title: 'Account No: ${query.id}',),
